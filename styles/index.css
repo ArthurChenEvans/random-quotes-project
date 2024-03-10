@@ -50,3 +50,26 @@ body {
     background-color: darkblue;
     transform: translateY(5px);
 }
+
+@media only screen and (max-width: 768px)
+{
+    #message {
+        font-size: 1.5em;
+    }
+    #author {
+        font-size: 1.0em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #message {
+        font-size: 1.0em;
+    }
+    #author {
+        font-size: 0.75em;
+    }
+    #generate-button {
+        margin-top: 20px;
+        float: none;
+    }
+}
